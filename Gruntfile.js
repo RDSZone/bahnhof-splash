@@ -156,11 +156,11 @@ module.exports = function (grunt) {
       options:{
         accessKeyId: '<%= aws.accessKeyId %>',
         secretAccessKey: '<%= aws.secretAccessKey %>',
-        bucket: '...'
+        bucket: 'bahnhof-thalfang.de'
       },
 
       build:{
-        cwd: 'build',
+        cwd: 'dist/',
         src: '**'
       }
     },
@@ -421,7 +421,8 @@ module.exports = function (grunt) {
     'copy:dist',
     'rev',
     'usemin',
-    'htmlmin'
+    'htmlmin',
+    's3'
   ]);
 
   grunt.registerTask('default', [
