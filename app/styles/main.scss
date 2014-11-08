@@ -15,6 +15,14 @@ body {
   left: 0;
   background: url(../images/logo.svg) no-repeat center center;
   background-size: contain;
+  .email-block{
+    width: 50%;
+    height: 50%;
+    position:absolute;
+    top: 25%;
+    left: 25%;
+    background: transparent;
+  }
 }
 
 .browsehappy {
