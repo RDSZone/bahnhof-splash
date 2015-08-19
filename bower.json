@@ -2,6 +2,7 @@
   "name": "bahnhof-splash",
   "private": true,
   "dependencies": {
-    "jquery": "~1.11.1"
+    "jquery": "~1.11.1",
+    "bourbon": "~4.2.3"
   }
 }
